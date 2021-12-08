@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EjercicioResponsive</title>
+    <style>
+      
+
+        #portaFotos {
+            display: flex;
+            width: 50vw;
+            height: 50vh;
+            background-color:rgba(0, 0, 0,0.0);
+            justify-content: center;
+            
+           
+        }
+
+        
+        @media screen and (orientation: landscape) {
+            #portaFotos {
+            max-width: 1200px;
+            max-height: 800px;
+            }
+        }
+        @media screen and (orientation:portrait) {
+            #portaFotos {
+            max-width:600px ;
+            max-height: 900px;
+            }
+        
+        }
+    </style>
+</head>
+<body>
+    
+    <picture id="portaFotos">
+        <source media="(orientation: portrait) and (min-width:1201px )" srcset="buho1200.heic" type="image/heic">
+        <source media="(orientation: portrait) and (min-width:1201px )" srcset="buho1200.webp" type="image/webp">
+        <source media="(orientation: portrait) and (min-width:1201px )" srcset="buho.jpg" type="image/jpg">
+        <source media="(orientation: portrait) and (min-width:601px )" srcset="tigre600.heic" type="image/heic">
+        <source media="(orientation: portrait) and (min-width:601px )" srcset="tigre600.webp" type="image/webp">
+        <source media="(orientation: portrait) and (min-width:601px )" srcset="tigre.jpg" type="image/jpg">
+        <source media="(orientation: landscape) and (min-width:1921px )" srcset="camaleon1920.heic" type="image/heic">
+        <source media="(orientation: landscape) and (min-width:1921px )" srcset="camaleon1920.webp" type="image/webp">
+        <source media="(orientation: landscape) and (min-width:1921px )" srcset="camaleon.jpg" type="image/jpg">
+        <source media="(orientation: landscape) and (min-width:801px )" srcset="llama800.heic" type="image/heic">
+        <source media="(orientation: landscape) and (min-width:801px )" srcset="llama800.webp" type="image/webp">
+        <source media="(orientation: landscape) and (min-width:801px )" srcset="llama.jpg" type="image/jpg">
+ 
+
+<img  id="portafotos"src="buho.jpg" alt="foto buho" title="animales "/>
+    </picture>
+</body>
+</html>

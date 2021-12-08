@@ -1,0 +1,12 @@
+Buscar 4 fotos en formato .jpg de 1920 puntos de ancho.
+
+Foto 1: vertical que tenga 1200 pixels de ancho.
+Foto 2: vertical que tenga 600 puntos de ancho.
+Foto 3: horizontal que tenga 1920 puntos de ancho.
+Foto 4: horizontal que tenga 800 puntos de ancho.
+
+Las 4 fotos estarán en formato .heic y formato .webp, siendo
+el formato .heic el que deba mostrar el navegador en caso de
+soportar ambos formatos.
+Si no soportara ninguno de esos formatos, mostrará la foto
+original que está en .jpg
